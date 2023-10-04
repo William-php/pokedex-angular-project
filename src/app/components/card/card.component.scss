@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card__container {
+    border: 1px solid #000;
+    width: 400px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 10px;
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    border-radius: 10px;
+    color: #fff
+}
+
+
+
+.card__body {
+    background: #fff;
+    height: 75%;
+    width: 350px;
+    opacity: 0.9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card__body > img {
+    // width: 350px;
+    
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+}
+
+.card__status {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.card__status__type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    border-radius: 5px;
+    padding: 4px;
+
+}
+
+.input__search {
+    width: 405px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+
+    
+    display: flex
+
+}
+
+.input__search > input {
+    width: 400px;
+    border: none;
+    outline: 0;
+}
+.btn__pokeball > img{
+    width: 22px;
+    cursor: pointer;
+}
+
+.normal{
+    background-color: #A8A77A;  
+  } 
+  .fire{
+    background-color: #EE8130;  
+  } 
+  .water{
+      background-color: #6390F0;  
+  } 
+  .electric{
+      background-color: #F7D02C;  
+  } 
+  .grass{
+      background-color: #7AC74C;  
+  } 
+  .ice{
+      background-color: #96D9D6;  
+  } 
+  .fighting{
+      background-color: #C22E28;  
+  } 
+  .poison{
+      background-color: #A33EA1;  
+  } 
+  .ground{
+      background-color: #E2BF65;  
+  } 
+  .flying{
+      background-color: #A98FF3;  
+  } 
+  .psychic{
+      background-color: #F95587;  
+  } 
+  .bug{
+      background-color: #A6B91A;  
+  } 
+  .rock{
+      background-color: #B6A136;  
+  } 
+  .ghost{
+      background-color: #735797;  
+  } 
+  .dragon{
+      background-color: #6F35FC;  
+  } 
+  .dark{
+      background-color: #705746;  
+  } 
+  .steel{
+      background-color: #B7B7CE;  
+  } 
+  .fairy{
+      background-color: #D685AD;  
+  } 

@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="card__container">
+        <div class="card__title">
+            <h2>{{pokemon?.name}}</h2>
+        </div>
+        <div class="card__body">
+            <img [src]="pokemon?.img" alt="pokemon">
+        </div>
+        <div class="card__status">
+            <span class="card__status__type" [ngClass]="type.toLocaleLowerCase()" *ngFor="let type of pokemon?.types">
+                {{type}}
+            </span>
+            
+        </div>
+    </div>
+    <div class="input__search">
+        <input type="text" name="" id="" [(ngModel)]="pokeString">
+        <div class="btn__pokeball" (click)="get()">
+            <img src="../../../assets/imgs/pokeball-removebg-preview.png" alt="">
+        </div>
+        
+    </div>
+</div>
